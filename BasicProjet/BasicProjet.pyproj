@@ -4,6 +4,7 @@
     <Name>BasicProjet</Name>
     <RootNamespace>BasicProjet</RootNamespace>
     <InterpreterId>MSBuild|env_django_1|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
